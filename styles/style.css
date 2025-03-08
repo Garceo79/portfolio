@@ -10,14 +10,26 @@ body{
         box-sizing: border-box;
 }
 
-.titulo-destaque {
+.header{
+    padding: 2% 0% 0% 15%;
+}
+
+.header_menu{
+    display: flex;
+    gap: 80px;
+}
+
+.header_menu_link{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
     color: #22D4FD;
 }
 
 .presentacion{
     display: flex;
     align-items: center;
-    margin: 10% 15%;
+    padding: 6% 15%;
     justify-content: space-between;
 }
 
@@ -26,6 +38,10 @@ body{
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+.titulo-destaque {
+    color: #22D4FD;
 }
 
 .presentacio_contenido_titulo{
