@@ -7,8 +7,7 @@
 body{
     background-color: #000000;
     color: #f6f6f6;
-    height: 100vh;
-    box-sizing: border-box;
+        box-sizing: border-box;
 }
 
 .titulo-destaque {
@@ -67,4 +66,18 @@ body{
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+
+.presentacion_enlaces_link:hover{
+    background-color: #272727;
+}
+
+.footer{
+    background-color: #22D4FD;
+    padding: 24px;
+    color: #000000;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
