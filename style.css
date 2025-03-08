@@ -47,7 +47,7 @@ body{
     gap: 32px;
 }
 
-.presentacio_enlaces_subtitulo{
+.presentacion_enlaces_subtitulo{
     font-family: 'Krona One', sans serif;
     font-size: 24px;
     font-weight: 400;
@@ -64,4 +64,7 @@ body{
     font-weight: 600;
     text-decoration: none;
     color:#f6f6f6;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
